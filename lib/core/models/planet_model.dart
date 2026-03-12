@@ -1,8 +1,33 @@
+// lib/models/planet.dart
+class Planet {
+  final String name;
+  final String image; // PNG
+  final String model; // 3D Model GLB
+  final String title;
+  final String about;
+  final String distanceFromSun;
+  final String lengthOfDay;
+  final String orbitalPeriod;
+  final String radius;
+  final String mass;
+  final String gravity;
+  final String surfaceArea;
 
-
-import 'package:space_app/planet_model.dart';
-
-final List<Planet> planets = [
+  Planet({
+    required this.name,
+    required this.image,
+    required this.model,
+    required this.title,
+    required this.about,
+    required this.distanceFromSun,
+    required this.lengthOfDay,
+    required this.orbitalPeriod,
+    required this.radius,
+    required this.mass,
+    required this.gravity,
+    required this.surfaceArea,
+  });
+  static final List<Planet> planets = [
   Planet(
     name: "Earth",
     image: "assets/images/earth.png",
@@ -131,3 +156,8 @@ final List<Planet> planets = [
     surfaceArea: "7.65 × 10¹⁵",
   ),
 ];
+}
+
+
+
+

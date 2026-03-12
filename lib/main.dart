@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:space_app/home_screen.dart';
-import 'package:space_app/planet_details.dart';
-import 'package:space_app/zero_screen.dart';
+import 'package:space_app/screens/home_screen.dart';
+import 'package:space_app/screens/planet_details.dart';
+import 'package:space_app/screens/zero_screen.dart';
 
 void main() {
   runApp(const MyApp());
